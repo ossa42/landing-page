@@ -136,3 +136,25 @@ li{
 .boxes p{
     text-align: center;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    margin: 30px 0 30px 0;
+}
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.quote p{
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    justify-content: center;
+}
+
+.quote b{
+    text-align: end;
+}
