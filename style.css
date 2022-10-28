@@ -158,3 +158,57 @@ li{
 .quote b{
     text-align: end;
 }
+
+.signup{
+    margin: 40px 0 40px 0;
+}
+.signup .container{
+
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup_left{
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.signup_right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_right button {
+    text-align: center;
+    width: 110px;
+    color: #e5e7eb;
+    background: #3882f6;
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup_right button:hover{
+    color:#1f2937;
+}
+
+.signup h2, .signup p {
+    color: #e5e7eb;
+    margin: 15px 0 15px 0;
+}
+
+.footer{
+    background-color: #1f2937;
+}
+.footer .container{
+    padding: 25px;
+    text-align: center;
+    color: #e5e7eb;
+}
