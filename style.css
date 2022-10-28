@@ -49,6 +49,10 @@ a{
     color: #e5e7eb;
 }
 
+a:hover{
+    color: #3882f6;
+}
+
 li{
     margin-left: 20px;
 
@@ -99,6 +103,10 @@ li{
     border-radius: 7px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.hero_left button:hover{
+    color: #1f2937;
 }
 
 .hero_right{
